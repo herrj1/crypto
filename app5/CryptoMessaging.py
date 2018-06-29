@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 # Form implementation generated from reading ui file 'C:\Users\swb\Documents\Projects\py\Crypto Messaging.ui'
 # Created by: PyQt5 UI code generator 5.10.1
 # WARNING! All changes made in this file will be lost!
@@ -62,4 +61,3 @@ class Ui_Dialog(object):
         self.labelSendEncrypted.setText(_translate("Dialog", "Send Encrypted"))
         self.labelReceiveDecrypted.setText(_translate("Dialog", "Receive Decrypted"))
         self.pushButtonQuitApplication.setText(_translate("Dialog", "Quit Application"))
-
