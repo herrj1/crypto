@@ -53,7 +53,6 @@ class Ui_Dialog(object):
         self.pushButtonQuitApplication = QtWidgets.QPushButton(Dialog)
         self.pushButtonQuitApplication.setGeometry(QtCore.QRect(274, 480, 101, 23))
         self.pushButtonQuitApplication.setObjectName("pushButtonQuitApplication")
-
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
@@ -62,7 +61,7 @@ class Ui_Dialog(object):
         Dialog.setWindowTitle(_translate("Dialog", "Cryptographic Messaging Tool  by Jonathan Herrera"))
         self.pushButtonSendEncryptedMessage.setText(_translate("Dialog", "Send Encrypted Message"))
         self.pushButtonReceiveDecryptedMessage.setText(_translate("Dialog", "Receive Decrypted Message"))
-        self.labelCipherTextLog.setText(_translate("Dialog", "Cipher Log"))
+        self.labelCipherTextLog.setText(_translate("Dialog", "Cipher Logs"))
         self.labelSendEncrypted.setText(_translate("Dialog", "Send Encrypted"))
         self.labelReceiveDecrypted.setText(_translate("Dialog", "Receive Decrypted"))
         self.pushButtonQuitApplication.setText(_translate("Dialog", "Quit Application"))
