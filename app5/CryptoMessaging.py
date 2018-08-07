@@ -52,6 +52,7 @@ class Ui_Dialog(object):
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
  #Added additional security mechanism to the UI
+#Added additional security mechanism to the UI
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Cryptographic Messaging Tool  by Jonathan H."))
