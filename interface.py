@@ -15,7 +15,6 @@ if result == QMessageBox.Yes:
 else:
     print 'No.'        
  
- 
 # Show window
 w.show() 
  
