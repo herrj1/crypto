@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'C:\Users\swb\Documents\Projects\py\Crypto Messaging.ui'
+# Form implementation generated from reading ui file 'C:\Users\user\Documents\Projects\py\Crypto Messaging.ui'
 #
 # Created by: PyQt5 UI code generator 5.10.1
 #
@@ -58,7 +57,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Cryptographic Messaging Tool  by Jonathan Herrera"))
+        Dialog.setWindowTitle(_translate("Dialog", "Cryptographic Messaging Tool  by Fullarray"))
         self.pushButtonSendEncryptedMessage.setText(_translate("Dialog", "Send Encrypted Message"))
         self.pushButtonReceiveDecryptedMessage.setText(_translate("Dialog", "Receive Decrypted Message"))
         self.labelCipherTextLog.setText(_translate("Dialog", "Cipher Logs"))
