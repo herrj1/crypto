@@ -33,7 +33,6 @@ decrypt=Button(root,text="Decrypt")
 decrypt.pack(side = LEFT)
 decrypt.bind('<Button-1>',Decrypt)
 
-
 label1=Label(root,text="Plain Text", fg="brown")
 label1.pack()
 
