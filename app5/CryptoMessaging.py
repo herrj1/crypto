@@ -48,7 +48,6 @@ class Ui_Dialog(object):
         self.pushButtonQuitApplication = QtWidgets.QPushButton(Dialog)
         self.pushButtonQuitApplication.setGeometry(QtCore.QRect(274, 480, 101, 23))
         self.pushButtonQuitApplication.setObjectName("pushButtonQuitApplication")
-
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
  #Added additional security mechanism to the UI
