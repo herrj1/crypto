@@ -15,14 +15,14 @@ from Crypto.Cipher import AES
 #Encrypt
 def Encrypt(e):
     label1.configure(text="Decrypt", fg="green")
-    #root.destroy()
+    #root,.destroy()
 
 #Decrypt
 def Decrypt(e):
     #obj = AES.new('This is a key8765', AES.MODE_CBC, 'This is an IV456')
     label1.configure(text="Encrypt", fg="red")
 
-#Import tkinter library into the program   
+#Import tkinter library into the programs
 root=Tk()
 
 encrypt=Button(root,text="Encrypt")
