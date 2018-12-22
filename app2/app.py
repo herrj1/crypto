@@ -4,7 +4,7 @@ def stopProg(e):
     
 root=Tk()
 button1=Button(root,
- text="Hello World click to close")
+ text="click to close")
 button1.pack()
 button1.bind('<Button-1>',stopProg)
 root.mainloop()
@@ -12,12 +12,12 @@ root.mainloop()
 from tkinter import *
 from Crypto.Cipher import AES
 
-#Encrypt
+#Encrypts
 def Encrypt(e):
     label1.configure(text="Decrypt", fg="green")
     #root,.destroy()
 
-#Decrypt
+#Decrypts
 def Decrypt(e):
     #obj = AES.new('This is a key8765', AES.MODE_CBC, 'This is an IV456')
     label1.configure(text="Encrypt", fg="red")
