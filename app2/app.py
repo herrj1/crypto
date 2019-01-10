@@ -24,7 +24,6 @@ def Decrypt(e):
 
 #Import tkinter library into the programs
 root=Tk()
-
 encrypt=Button(root,text="Encrypt")
 encrypt.pack(side = RIGHT)
 encrypt.bind('<Button-1>',Encrypt)
