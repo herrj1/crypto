@@ -11,9 +11,9 @@ w = QWidget()
 result = QMessageBox.question(w, 'Message', "Do you like Python?", QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
  
 if result == QMessageBox.Yes:
-    print 'Yes.'
+    print 'Yes!'
 else:
-    print 'No.'        
+    print 'No!'        
  
 # Show window
 w.show() 
