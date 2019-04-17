@@ -1,7 +1,6 @@
 from tkinter import *
 def stopProg(e):
     root.destroy()
-    
 root=Tk()
 button1=Button(root,
  text="Hello World click to close")
