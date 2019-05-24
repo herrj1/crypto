@@ -1,2 +1,2 @@
 # crypto applications
-Crytpo implementations
+Crytpo select implementations
