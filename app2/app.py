@@ -21,7 +21,7 @@ def Decrypt(e):
     #obj = AES.new('This is a key8765', AES.MODE_CBC, 'This is an IV456')
     label1.configure(text="Encrypt", fg="red")
 
-#Import tkinter library into the programs
+#Import tkinter library into the programs to process the following
 root=Tk()
 encrypt=Button(root,text="Encrypt")
 encrypt.pack(side = RIGHT)
