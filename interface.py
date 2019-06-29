@@ -15,7 +15,7 @@ if result == QMessageBox.Yes:
 else:
     print 'No!'        
  
-# Show window
+# Show windows
 w.show() 
  
 sys.exit(a.exec_())
