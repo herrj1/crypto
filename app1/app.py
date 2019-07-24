@@ -11,12 +11,12 @@ root.mainloop()
 from tkinter import *
 from Crypto.Cipher import AES
 
-#Encryptss
+#Encrypt
 def Encrypt(e):
     label1.configure(text="Decrypt", fg="green")
     root.destroy()
 
-#Decryptss
+#Decrypt
 def Decrypt(e):
     #obj = AES.new('This is a key123', AES.MODE_CBC, 'This is an IV456')
     label1.configure(text="Encrypt", fg="red")
