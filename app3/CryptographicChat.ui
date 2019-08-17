@@ -4,12 +4,9 @@
  <widget class="QMainWindow" name="MainWindowCryptoChatByJonathan">
   <property name="geometry">
    <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>382</width>
+    <x>0</x> <y>0</y> <width>382</width>
     <height>259</height>
-   </rect>
-  </property>
+   </rect>  </property>
   <property name="windowTitle">
    <string>Secret Messenger by Jonathan</string>
   </property>
