@@ -13,7 +13,7 @@ from tkinter import *
 from Crypto.Cipher import AES
 
 
-##Encrypts
+#Encrypts
 def Encrypt(e):
     label1.configure(text="Decrypt", fg="green")
     #root,.destroy()
