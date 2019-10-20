@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*--
+# -*- coding: utf-8 -*-
 # Form implementation generated from reading ui file 'C:\Users\xxxx\Documents\xxxxxx\py\Crypto Messaging.ui'
 # Created by: PyQt5 UI code generator 5.100 ## WARNING! All changes made in this file will be lost er
 from PyQt5 import QtCore, QtGui, QtWidgets
