@@ -1,6 +1,7 @@
 from tkinter import *
 def stopProg(e):
     root.destroy()
+
     
 root=Tk()
 button1=Button(root,
