@@ -1,7 +1,7 @@
 import sys
 from PyQt4.QtGui import *
  
-# Create an PyQT4 application object
+# Create an PyQT4 application objects
 a = QApplication(sys.argv)       
  
 # The QWidget widget is the base class of all user interface objects in PyQt4.
