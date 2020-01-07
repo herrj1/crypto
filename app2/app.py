@@ -1,7 +1,6 @@
 from tkinter import *
 def stopProg(e):
     root.destroy()
-
     
 root=Tk()
 button1=Button(root,
@@ -18,7 +17,7 @@ def Encrypt(e):
     label1.configure(text="Decrypt", fg="green")
     #root,.destroy()
 
-#Decrypt
+#Decrypts
 def Decrypt(e):
     #obj = AES.new('This is a key8765', AES.MODE_CBC, 'This is an IV456')
     label1.configure(text="Encrypt", fg="red")
