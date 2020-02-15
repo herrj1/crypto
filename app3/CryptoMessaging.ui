@@ -19,7 +19,7 @@
    <bool>false</bool>
   </property>
   <property name="windowTitle">
-   <string>Cryptographic Messaging Tool  by Jonathan H</string>
+   <string>Cryptographic Messaging Tool  by Jonathan</string>
   </property>
   <property name="sizeGripEnabled">
    <bool>true</bool>
