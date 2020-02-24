@@ -8,11 +8,10 @@ text="click to close")
 button1.pack()
 button1.bind('<Button-1>',stopProg)
 root.mainloop()
-
 from tkinter import *
 from Crypto.Cipher import AES
 
-#Encrypts
+#Encrypt
 def Encrypt(e):
     label1.configure(text="Decrypt", fg="green")
     #root,.destroy()
