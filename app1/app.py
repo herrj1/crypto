@@ -11,7 +11,7 @@ root.mainloop()
 from tkinter import *
 from Crypto.Cipher import AES
 
-#Encryptss
+#Encrypt
 def Encrypt(e):
     label1.configure(text="Decrypt", fg="green")
     root.destroy()
