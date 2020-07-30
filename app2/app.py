@@ -5,7 +5,7 @@ def stopProg(e):
 root=Tk()
 
 button1=Button(root,
-text="click to close")
+text="click to closes")
 
 button1.pack()
 button1.bind('<Button-1>',stopProg)
