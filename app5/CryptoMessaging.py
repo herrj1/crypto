@@ -49,8 +49,8 @@ class Ui_Dialog(object):
         self.pushButtonQuitApplication.setObjectName("pushButtonQuitApplication")
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
- #Added additional security mechanism to the UI
-#Added additional security mechanism to the UI
+ #Added additional security mechanism
+#Added additional security mechanism
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Cryptographic Messaging Tool  by Jonathan H. Fullarray"))
